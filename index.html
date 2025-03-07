@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="nav-container">
+        <nav>
+            <a href="#home" class="active"><span class="nav-text">Home</span><i class="fas fa-rocket"></i></a>
+            <a href="#mercury" class="mercury-link"><span class="nav-text">Mercury</span><i class="fas fa-temperature-high"></i></a>
+            <a href="#venus" class="venus-link"><span class="nav-text">Venus</span><i class="fas fa-cloud"></i></a>
+            <a href="#earth"><span class="nav-text">Earth</span><i class="fas fa-earth-americas"></i></a>
+            <a href="#mars" class="mars-link"><span class="nav-text">Mars</span><i class="fas fa-mountain"></i></a>
+            <a href="#jupiter" class="jupiter-link"><span class="nav-text">Jupiter</span><i class="fas fa-hurricane"></i></a>
+            <a href="#saturn" class="saturn-link"><span class="nav-text">Saturn</span><i class="fas fa-circle-notch"></i></a>
+            <a href="#neptune" class="neptune-link"><span class="nav-text">Neptune</span><i class="fas fa-wind"></i></a>
+        </nav>
+    </div>
+    <section id="home">
+        <div class="solar-system">
+            <div class="sun"></div>
+            
+            <div class="orbit mercury-orbit">
+                <div class="planet mercury"></div>
+            </div>
+            
+            <div class="orbit venus-orbit">
+                <div class="planet venus"></div>
+            </div>
+            
+            <div class="orbit earth-orbit">
+                <div class="planet earth">
+                    <div class="orbit moon-orbit">
+                        <div class="planet moon"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="orbit mars-orbit">
+                <div class="planet mars"></div>
+            </div>
+
+            <div class="asteroid-belt"></div>
+            
+            <div class="orbit jupiter-orbit">
+                <div class="planet jupiter"></div>
+            </div>
+            
+            <div class="orbit saturn-orbit">
+                <div class="planet saturn">
+                    <div class="saturn-rings"></div>
+                </div>
+            </div>
+
+            <div class="orbit uranus-orbit">
+                <div class="planet uranus">
+                    <div class="uranus-rings"></div>
+                </div>
+            </div>
+
+            <div class="orbit neptune-orbit">
+                <div class="planet neptune"></div>
+            </div>
+        </div>
+
+        <div class="typewriter">
+            <h1>Hi. I am Solar Aplupous.</h1>
+        </div>
+    </section>
+
+    <section id="mercury" class="planet-section">
+        <div class="planet-display">
+            <div class="planet-graphic mercury-graphic"></div>
+            <h2>Mercury</h2>
+            <p>The Swift Planet</p>
+            <div class="planet-facts">
+                <p>Smallest planet</p>
+                <p>Closest to the Sun</p>
+                <p>No moons</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="venus" class="planet-section">
+        <div class="planet-display">
+            <div class="planet-graphic venus-graphic"></div>
+            <h2>Venus</h2>
+            <p>The Morning Star</p>
+            <div class="planet-facts">
+                <p>Earth's sister planet</p>
+                <p>Hottest planet</p>
+                <p>Toxic atmosphere</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="earth" class="planet-section">
+        <div class="planet-display">
+            <div class="planet-graphic earth-graphic"></div>
+            <h2>Earth</h2>
+            <p>The Blue Planet</p>
+            <div class="planet-facts">
+                <p>Only known life-bearing world</p>
+                <p>One moon</p>
+                <p>71% water covered</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mars" class="planet-section">
+        <div class="planet-display">
+            <div class="planet-graphic mars-graphic"></div>
+            <h2>Mars</h2>
+            <p>The Red Planet</p>
+            <div class="planet-facts">
+                <p>Two moons</p>
+                <p>Has polar ice caps</p>
+                <p>Largest volcano</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="jupiter" class="planet-section">
+        <div class="planet-display">
+            <div class="planet-graphic jupiter-graphic"></div>
+            <h2>Jupiter</h2>
+            <p>The Giant Planet</p>
+            <div class="planet-facts">
+                <p>Largest planet</p>
+                <p>Great Red Spot</p>
+                <p>79 known moons</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="saturn" class="planet-section">
+        <div class="planet-display">
+            <div class="planet-graphic saturn-graphic"></div>
+            <h2>Saturn</h2>
+            <p>The Ringed Planet</p>
+            <div class="planet-facts">
+                <p>Spectacular rings</p>
+                <p>82 known moons</p>
+                <p>Least dense planet</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="neptune" class="planet-section">
+        <div class="planet-display">
+            <div class="planet-graphic neptune-graphic"></div>
+            <h2>Neptune</h2>
+            <p>The Wind Planet</p>
+            <div class="planet-facts">
+                <p>Strongest winds</p>
+                <p>14 known moons</p>
+                <p>Blue atmosphere</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="details-section" id="details">
+        <div class="close-details">&times;</div>
+        <h2>Solar System Details</h2>
+        
+        <div class="planet-info">
+            <h3>The Sun</h3>
+            <p>The Sun is the star at the center of our Solar System. It's a massive ball of hydrogen and helium undergoing nuclear fusion, providing light and energy to all the planets.</p>
+        </div>
+
+        <div class="planet-info">
+            <h3>Mercury</h3>
+            <p>The smallest and innermost planet, Mercury is a rocky world with extreme temperatures. Its surface is heavily cratered, similar to Earth's Moon.</p>
+        </div>
+
+        <div class="planet-info">
+            <h3>Venus</h3>
+            <p>Often called Earth's sister planet due to similar size, Venus has a toxic atmosphere and extreme greenhouse effect making it the hottest planet.</p>
+        </div>
+
+        <div class="planet-info">
+            <h3>Earth</h3>
+            <p>Our home planet is the only known world to harbor life. It has one natural satellite, the Moon, and is the largest of the rocky planets.</p>
+        </div>
+
+        <div class="planet-info">
+            <h3>Mars</h3>
+            <p>The Red Planet has polar ice caps, vast canyons, and the largest volcano in the solar system. It's the most explored planet besides Earth.</p>
+        </div>
+
+        <div class="planet-info">
+            <h3>Jupiter</h3>
+            <p>The largest planet in our solar system, Jupiter is a gas giant with a Great Red Spot and dozens of moons. Its powerful magnetic field is the strongest among planets.</p>
+        </div>
+
+        <div class="planet-info">
+            <h3>Saturn</h3>
+            <p>Famous for its spectacular ring system, Saturn is a gas giant with numerous moons. Its rings are made mostly of ice particles and rock.</p>
+        </div>
+
+        <div class="planet-info">
+            <h3>Uranus</h3>
+            <p>An ice giant that rotates on its side, Uranus has a unique blue-green color due to methane in its atmosphere. It has faint rings and many moons.</p>
+        </div>
+
+        <div class="planet-info">
+            <h3>Neptune</h3>
+            <p>The windiest planet, Neptune is the last ice giant with a deep blue color. It has a dynamic atmosphere with dark spots and the strongest winds in the solar system.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <h2>Samiur Rabbi Alex</h2>
+        <a href="https://github.com/samiurrahman360" class="profile-button" target="_blank">View Profile</a>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-container a');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sectionId = this.getAttribute('href').substring(1);
+                    const section = document.getElementById(sectionId);
+                    
+                    // Remove active class from all links
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    // Add active class to clicked link
+                    this.classList.add('active');
+
+                    // Smooth scroll to section
+                    section.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+
+            // Update active nav link on scroll
+            window.addEventListener('scroll', function() {
+                let current = '';
+                const sections = document.querySelectorAll('section');
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').substring(1) === current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+
+            const nav = document.querySelector('.nav-container');
+            let scrolled = false;
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100 && !scrolled) {
+                    nav.classList.add('scrolled');
+                    scrolled = true;
+                } else if (window.scrollY <= 100 && scrolled) {
+                    nav.classList.remove('scrolled');
+                    scrolled = false;
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
